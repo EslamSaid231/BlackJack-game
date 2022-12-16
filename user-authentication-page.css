@@ -1,0 +1,48 @@
+* {
+   
+    
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(./res/360_F_333162138_4i2Ce8farqO0dlbyi6kqrjuVBbkrk7Qf.jpg);
+    background-size: cover;
+}
+
+.user-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-data input {
+    width: 15%;
+}
+
+.user-data button {
+    width: 5%;
+}
+
+.blackjack-header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+
+.blackjack-header h1 {
+    width: 20%;
+    -webkit-box-shadow: -10px 15px 34px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -10px 15px 34px -4px rgba(0,0,0,0.75);
+    box-shadow: -10px 15px 34px -4px rgba(0,0,0,0.75);
+color: goldenrod;
+border-radius: 2rem;
+background-color: whitesmoke;    
+line-height: 50px;
+}
+.Message {
+    color: rgb(172, 6, 6);
+}

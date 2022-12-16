@@ -1,0 +1,150 @@
+* {
+  font-weight: bold;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  background-image: url(./res/360_F_333162138_4i2Ce8farqO0dlbyi6kqrjuVBbkrk7Qf.jpg);
+  background-size: cover;
+}
+
+.blackjacktitle {
+  line-height: 50px;
+  text-align: center;
+}
+.blackjacktitle > h1 {
+  color: goldenrod;
+}
+.blackjacktitle p {
+  color: white;
+}
+#message-el {
+  font-style: italic;
+}
+.buttons {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.startbtn {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 50px;
+  width: 100px;
+  background-color: darkgreen;
+  color: white;
+  transition: 0.3s;
+  border: none;
+  border-radius: 2px;
+}
+.startbtn:hover {
+  box-shadow: black 0 0 15px;
+  color: yellow;
+  text-shadow: white 0 0 15px;
+}
+.newcardbtn {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 50px;
+  width: 100px;
+  background-color: darkgreen;
+  color: white;
+  transition: 0.3s;
+  border: none;
+  border-radius: 2px;
+}
+.newcardbtn:hover {
+  box-shadow: black 0 0 15px;
+  color: yellow;
+  text-shadow: white 0 0 15px;
+}
+
+.header_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_container h1 {
+  background-color: whitesmoke;
+  border-radius: 2rem;
+  width: 20%;
+  -webkit-box-shadow: -10px 15px 34px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -10px 15px 34px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: -10px 15px 34px -4px rgba(0, 0, 0, 0.75);
+  color: goldenrod;
+}
+
+.game_container {
+  display: flex;
+  justify-content: center;
+  gap: 20rem;
+}
+
+.cards_container {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: flex-start;
+}
+
+.cards_container img {
+  width: 10%;
+}
+
+.user_container {
+  position: relative;
+  left: 300px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.cards-el {
+  width: 25%;
+}
+
+.cards {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+
+.cards_container .cards-el {
+  text-align: left;
+}
+
+.dealer_container {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.dealer_container img {
+  width: 10%;
+}
+.dealer-cards-container {
+  display: flex;
+}
+.dealer_container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.dealer_cards {
+  width: 25%;
+}
+
+.dealer-cards {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+
+.dealer_container .dealer-cards {
+  text-align: left;
+}

@@ -1,0 +1,14 @@
+body {
+    background-image: url(./res/360_F_333162138_4i2Ce8farqO0dlbyi6kqrjuVBbkrk7Qf.jpg);
+    background-size: cover;
+}
+.name {
+    width: fit-content;
+    position: relative;
+    left: 42%;
+    text-align: center;
+    background-color: darkolivegreen;
+    background-size: cover;
+    transition: 0.3s;
+    box-shadow: 0 0 10px black;
+}
